@@ -20,16 +20,16 @@ public class addMinutes {
 
         System.out.println("test");
 
-        return "redirect:addMoreMinutes.html";
-    }
-
-    @RequestMapping(value = "/addMoreMinutes")
-    public String addMoreMinutes(@ModelAttribute("exercise") Exercise exercise)
-    {
-        System.out.println("exercising: " + exercise.getMinutes());
-
-        System.out.println("I am from exercising");
-
         return "addMinutes";
     }
+//
+//    @RequestMapping(value = "/addMoreMinutes")
+//    public String addMoreMinutes(@ModelAttribute("exercise") Exercise exercise)
+//    {
+//        System.out.println("exercising: " + exercise.getMinutes());
+//
+//        System.out.println("I am from exercising");
+//
+//        return "addMinutes";
+//    }
 }
