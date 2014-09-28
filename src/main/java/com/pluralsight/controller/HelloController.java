@@ -17,4 +17,11 @@ public class HelloController {
         model.addAttribute("greeting", "Hello Jahangir");
         return "hello";
     }
+
+    @RequestMapping(value = "/addMinutes")
+    public String addMinutes(Model model)
+    {
+        model.addAttribute("addminutes", "Add some minutes");
+        return "addMinutes";
+    }
 }
