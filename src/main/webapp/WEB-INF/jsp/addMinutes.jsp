@@ -17,7 +17,7 @@
 
         $(document).ready(
           function(){
-              $.getJSON('http://localhost:8080/activities.json',
+              $.getJSON('<spring:url value="activities.json"/>',
                       {
                           ajax: 'true'
                       }, function(data){
