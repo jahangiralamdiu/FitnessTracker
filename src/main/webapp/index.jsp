@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Jahangir</h2>
+<h2>Welcome to Fitness Tracker</h2>
 </body>
 </html>
