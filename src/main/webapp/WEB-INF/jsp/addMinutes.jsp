@@ -14,6 +14,8 @@
 </head>
 <body>
 
+Language : <a href="?language=en">English</a> | <a href="?language=es">Spanish</a>
+
 <form:form commandName="exercise">
 
     <table>
