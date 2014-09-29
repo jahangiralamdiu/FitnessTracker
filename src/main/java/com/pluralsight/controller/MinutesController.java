@@ -23,7 +23,7 @@ public class MinutesController {
     {
         System.out.println("exercise: " + exercise.getMinutes());
 
-        System.out.println("test");
+        System.out.println("Activity :" + exercise.getActivity());
 
         return "addMinutes";
     }
